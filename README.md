@@ -10,16 +10,16 @@ PracticalDodgeKey := "Shift"
 ```
 , this for dashing:
 ```autohotkey
-PracticalSprintKey := "XButton2"
+PracticalDashKey := "XButton2"
 ```
-, and finally this for in-game keybind (this can be any unused key):
+, and finally this for the in-game "Backstep, Dodge Roll, Dash" shortcut (this can be any unused key):
 ```autohotkey
 InGameDodgeKey := "I"
 ```
 
 Now you can execute the script.
 
-I recommend setting the key for dashing to the same key as blocking, which may save you a keybind. These two actions do not conflict with each other. Blocking also doesn't prevent your from performing subsequent actions after dashing (e.g., dash + attack.)
+I recommend setting the key for dashing to the same key as in-game "Guard", which may save you a keybind. These two actions do not conflict with each other. Guarding also doesn't prevent your from performing subsequent actions after dashing (e.g., dash and attack.)
 
 ## Warning
 I have no idea if using AutoHotkey scripts while connecting to the official server would get you a ban. I've only played the co-op version of this game recently.
