@@ -2,7 +2,7 @@
 The AutoHotkey script helps you perform a dodge roll more accurately in Elden Ring. In the original game, your dodge rolls are delayed until the shortcut is released.
 
 ## Usage
-To use the script, you have to download AutoHotkey from https://www.autohotkey.com/ and install it if you haven't got it. Then download the ReduceDodgeLatency.ahk from this repository. Before you execute it, you have to modify some variables in the script. Please check https://www.autohotkey.com/docs/v2/KeyList.htm if you have no idea how to specify a specific key.
+To use the script, you have to download [AutoHotkey](https://www.autohotkey.com/) and install it if you haven't got it. Then download the [ReduceDodgeLatency.ahk](https://github.com/kapoisu/elden-ring-faster-dodge/blob/main/ReduceDodgeLatency.ahk) from this repository. Before you execute it, you have to modify some variables in the script. Check https://www.autohotkey.com/docs/v2/KeyList.htm if you have no idea how to specify a specific key.
 
 Change the value of this variable to the practical shortcut you'd like to use for dodging:
 ```autohotkey
