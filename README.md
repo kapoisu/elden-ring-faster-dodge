@@ -2,7 +2,7 @@
 The AutoHotkey script helps you perform a dodge roll more accurately in Elden Ring. In the original game, your dodge rolls are delayed until the shortcut is released.
 
 ## Usage
-To use the script, you have to download AutoHotkey from https://www.autohotkey.com/ and install it if you haven't got it. Then download the ReduceDodgeLatency.ahk from this repository. Before you execute it, you have to modify some variables in the script.
+To use the script, you have to download AutoHotkey from https://www.autohotkey.com/ and install it if you haven't got it. Then download the ReduceDodgeLatency.ahk from this repository. Before you execute it, you have to modify some variables in the script. Please check https://www.autohotkey.com/docs/v2/KeyList.htm if you have no idea how to specify a specific key.
 
 Change the value of this variable to the practical shortcut you'd like to use for dodging:
 ```autohotkey
@@ -17,7 +17,7 @@ PracticalSprintKey := "XButton2"
 InGameDodgeKey := "I"
 ```
 
-Please check https://www.autohotkey.com/docs/v2/KeyList.htm if you have no idea how to specify a specific key.
+I recommend setting the key for dashing to the same key as blocking, which may save you a keybind. These two actions do not conflict with each other. Blocking also doesn't prevent your from performing subsequent actions after dashing (e.g., dash + attack.)
 
 ## FAQ
 ### Why would you separate the dash function from the dodge roll?
